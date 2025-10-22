@@ -1,0 +1,14 @@
+const ROLES = {
+  ADMIN: 1,
+  ANALYST: 2,
+};
+
+const ROLES_PERMISSIONS = {
+  ADMIN_ONLY: [ROLES.ADMIN],
+  ADMIN_AND_ANALYST: [ROLES.ADMIN, ROLES.ANALYST],
+};
+
+module.exports = {
+  ROLES,
+  ROLES_PERMISSIONS,
+};
